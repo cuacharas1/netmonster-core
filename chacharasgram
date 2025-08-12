@@ -1,0 +1,5 @@
+NetMonsterFactory.getTelephony(context, SUBSCRIPTION_ID).apply {
+    val allCellInfo : List<ICell> = getAllCellInfo() 
+    val cellLocation : List<ICell> = getCellLocation()
+    val neighbouringCells : List<ICell> = getNeighbouringCellInfo()
+}
